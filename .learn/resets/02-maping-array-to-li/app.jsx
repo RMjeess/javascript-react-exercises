@@ -3,10 +3,11 @@ import ReactDOM from "react-dom";
 
 const animals = ["Horse", "Turtle", "Elephant", "Monkey"];
 
+/**
+ * change the content inside the map function
+ **/
 const animalsInHTML = animals.map((singleAnimal, i) => {
-	return <li key={i}>{singleAnimal}</li>;
+	return <li>hello</li>;
 });
-
-console.log(animalsInHTML);
 
 ReactDOM.render(<ul>{animalsInHTML}</ul>, document.querySelector("#myDiv"));
