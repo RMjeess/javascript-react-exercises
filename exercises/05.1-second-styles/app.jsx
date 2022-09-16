@@ -10,8 +10,7 @@ const buttonStyles = {
 
 const badgeStyles = {
 	background: "red",
-	color: "white",
-	borderRadious: "50px",
+	color: "white"
 };
 
 const Badge = (props) => {
